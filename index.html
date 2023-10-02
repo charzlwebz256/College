@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    
+   
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="https://img.freepik.com/premium-vector/education-school-logo-design_586739-4428.jpg?w=2000" >
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                      <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                    </svg></a></li>
+                    <li><a href="about.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                      <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                      <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                    </svg>About</a></li>
+                    <li><a href="courses.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-ruled" viewBox="0 0 16 16">
+                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v4h10V2a1 1 0 0 0-1-1H4zm9 6H6v2h7V7zm0 3H6v2h7v-2zm0 3H6v2h6a1 1 0 0 0 1-1v-1zm-8 2v-2H3v1a1 1 0 0 0 1 1h1zm-2-3h2v-2H3v2zm0-3h2V7H3v2z"/>
+                    </svg>Courses</a></li>
+                    <li><a href="blog.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext" viewBox="0 0 16 16">
+                      <path d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                      <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                    </svg>Blog</a></li>
+                    <li><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Kakuma's Popular College</h1>
+            <p>Welcome to Kakuma College, a beacon of hope and knowledge nestled within the heart of Kakuma Refugee Camp. Despite the challenges that surround it, this educational institution has become a symbol of resilience, providing a transformative experience for its students and shaping the future of countless lives.</p>
+            <a href="" class="hero-btn">Visit us to know More</a>
+        </div>
+    </section>
+
+
+    <!---Course Section-->
+<section class="courses">
+    <h1 style="color: aliceblue;">Courses We Offer</h1>
+    <p style="color: aliceblue;">In this dynamic and engaging course, you will embark on a journey that covers the essentials of creative writing. You'll learn the fundamental elements of storytelling, character development, setting, plot construction, dialogue, and much more. The course is carefully structured to accommodate both novice writers and those with some prior experience, providing a supportive and nurturing environment for all participants.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Advanced Computer</h3>
+            <p>The "Advanced Computer Programming" course is a comprehensive and immersive experience, tailored for ambitious programmers who want to excel in their craft. Throughout this course, you will dive deep into advanced programming concepts, design patterns, data structures, and algorithms, equipping yourself with the skills needed to tackle even the most intricate software challenges.</p>
+        </div>
+            <div class="course-col">
+                <h3>Web Development </h3>
+                <p>Are you ready to embark on a dynamic journey into the world of web development? Our Comprehensive Web Development Masterclass is your gateway to mastering the art of creating stunning, functional, and interactive websites. Whether you're a beginner looking to build a strong foundation or an experienced developer aiming to enhance your skills, this course is designed to empower you with the knowledge and tools you need to succeed in the fast-paced field of web development.</p>
+            </div>
+            <div class="course-col">
+                <h3>Web Designing</h3>
+                <p>Getting ready to unleash your creativity and design stunning, user-friendly websites that captivate and engage users? Our Professional Web Design Mastery course is your gateway to mastering the art of web design. Whether you're an aspiring designer or a seasoned professional looking to enhance your skills, this course is meticulously crafted to provide you with the knowledge and expertise required to excel in the ever-evolving world of web design.</p>
+            </div>
+</div>
+</section>
+
+    <!---Campus-->
+    <section class="campus">
+            <h1 style="color: aliceblue; margin-top: 10px;">Our Global Campus</h1>
+            <p style="color: aliceblue;">Location: It's a vibrant and dynamic community that fosters intellectual curiosity, personal development, and lifelong connections. From the moment you step onto our campus grounds, you'll be immersed in a supportive and nurturing environment that encourages exploration, creativity, and the pursuit of knowledge.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/Photos/The-Lawn.jpg" alt="">
+                    <div class="layer">
+                        <h3>KAKUMA 1</h3>
+                    </div>
+                </div>
+
+                    <div class="campus-col">
+                        <img src="/Photos/DTU_kunstprogram_groennegaarden.jpg" alt="">
+                            <div class="layer">
+                                <h3>KAKUMA 2</h3>
+                            </div>
+                        </div>
+                      
+                        <div class="campus-col">
+                            <img src="/Photos/Catalyst-1.jpg" alt="">
+                                <div class="layer">
+                                    <h3>KAKUMA 3</h3>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-------Facilities-->
+        <section class="facilities" style="background-image: url(https://images.freeimages.com/365/images/istock/previews/9790/97907939-abstract-background-with-a-perspective-grid.jpg);">
+            <h1>Our Facilities</h1>
+            <p>At Kakuma College, we are committed to providing an exceptional learning environment that nurtures the growth and development of our students. Our state-of-the-art facilities are thoughtfully designed to enhance the educational journey, foster innovation, and create a sense of belonging within our campus community.</p>
+        <div class="row">
+            <div class="facilities-col">
+            <img src="/Photos/computerlab.jpg">
+            <h3>Compute Lab</h3>
+            <p>Welcome to the state-of-the-art Computer Lab Facility at Kakuma College, where innovation meets education. Our modern and fully equipped computer lab is designed to empower students, faculty, and researchers with cutting-edge technology and resources to enhance their learning and research experiences.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/Photos/tt.jpg">
+            <h3>Trained Stuff</h3>
+            <p>Welcome to the Trained Staff Facility at Kakuma College, a dedicated space where knowledge, expertise, and professional development converge to empower our staff members. We believe that investing in our staff's growth and skills is the key to providing quality education and fostering a thriving college community.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/Photos/oo.jpg">
+            <h3>Condusive Environment</h3>
+            <p>At Kakuma College, we believe that a conducive environment is essential for fostering learning, creativity, and personal growth. Our Conducive Environment Facility is thoughtfully designed to provide students and faculty with a harmonious space where they can thrive academically and personally.</p>
+        </div>
+    </div>
+        </section>
+
+        <!-----Testimonials-->
+        <section class="testimonials" style="background-image: url(https://p.kindpng.com/picc/s/488-4887005_vector-technologies-futuristic-line-circle-hd-png-download.png);">
+            <h1 style="text-align: center;">What our students say!</h1>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="https://cdn.standardmedia.co.ke/sdemedia/sdeimages/wednesday/vqxglytud1pip3r6010f6744ef8f.jpg">
+                    <div>
+                    <p>I am amazed by the exceptional support I received from this company. Their team went above and beyond to solve my issue and ensure my satisfaction. Thank you for your outstanding service!</p>
+                <h3>Kemi Tums</h3>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+        </div>
+
+            <div class="testimonials-col">
+                <img src="https://media.licdn.com/dms/image/C4D03AQFszgmzRrHa_Q/profile-displayphoto-shrink_800_800/0/1576496069590?e=2147483647&v=beta&t=coH40YmXsULZ19qRorkf7Kh76fZbbbLiJXHCQIjtUZU">
+                <div>
+                    <p>I've been a customer for years, and the consistency in the quality of products and services is what keeps me coming back. Thank you for being a reliable partner.</p>
+            <h3>Hannington Ramz</h3>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <section class="foot" >
+            <!------Footer-->
+            <footer class="footer" style=" background-color: black;">
+                <div class="footer__addr">
+                  <h1 class="footer__logo"></h1>
+                      
+                  <h2 style="color: wheat;">Contact</h2>
+                  
+                  <address>
+                    Kakuma Refugee Camp <br>
+                        
+                    <a class="footer__btn" href="mailto:example@gmail.com" style="color: white;">Email Us</a>
+                    <a href="" style="color: wheat; font-size: 20px;">+254115528365</a>
+                  </address>
+                </div>
+                
+                <ul class="footer__nav">
+                  <li class="nav__item">
+                    <h2 class="nav__title" style="color: wheat;">Courses</h2>
+              
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Advanced ICT</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Web Development</a>
+                      </li>
+                          
+                      <li>
+                        <a href="#">Web Designinig</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav__item nav__item--extra">
+                    <h2 class="nav__title" style="color: wheat;">Our Partners</h2>
+                    
+                    <ul class="nav__ul nav__ul--extra">
+                      <li>
+                        <a href="#">IRC</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">SIR</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">NRC</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">DRS</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">JRS</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">IoT</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <h2 class="nav__title" style="color: wheat;">Legal</h2>
+                    
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Terms of Use</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Sitemap</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <div class="legal">
+                  <p>&copy; 2023 Something. All rights reserved.</p>
+                  
+                  <div class="legal__links">
+                    <span>Made by charzlwebz256 with <span class="heart">♥</span> remotely from Kakuma Refugee Camp at Solidarity Initiative for Refugees</span>
+                  </div>
+                </div>
+              </footer>
+        </section>
+
+
+
+     
+    <!----JavaScipt fot Toggle Menu-->
+<script>
+    var navLinks =document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right = "0";
+}
+function hideMenu() {
+    navLinks.style.right = "-200px";
+} 
+</script>
+
+</body>
+</html>
